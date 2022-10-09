@@ -8,8 +8,56 @@
 /* rgba white rgba(255, 255, 255, 0.6); */
 /* background color #FFFFFF; */
 /* second background color: #2F303A; */
+/* black #000000 */
 
+:root {
+    --main-color: #212121;
+    --second-color: #757575;
+    --accent: #2196F3;
+}
+
+
+
+
+ul {
+    list-style: none;
+}
 .page-body {
-color: #212121;
+color: var(--main-color);
 background-color: #FFFFFF;
+}
+
+/* Header */
+.logo {
+    color: #000000; 
+    }
+.logo-style {
+    color: var(--accent);
+}
+.site-nav a {
+    color: var(--main-color);
+}
+.auth-nav a {
+    color: var(--second-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent);
+}
+
+.auth-nav a:hover, 
+.auth-nav a:focus {
+    color: var(--accent);
+}
+
+/* Main */
+
+p {
+    color: var(--second-color);
 }
