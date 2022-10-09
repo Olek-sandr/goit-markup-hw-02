@@ -1,0 +1,15 @@
+
+/* Color palette */
+
+/* Main color text #212121; */
+/* Second color text #757575; */
+/* accent #2196F3 */
+/* white #FFFFFF */
+/* rgba white rgba(255, 255, 255, 0.6); */
+/* background color #FFFFFF; */
+/* second background color: #2F303A; */
+
+.page-body {
+color: #212121;
+background-color: #FFFFFF;
+}
