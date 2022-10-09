@@ -56,6 +56,10 @@ background-color: #FFFFFF;
     color: var(--accent);
 }
 
+.site-nav .current {
+color: var(--accent);
+}
+
 /* Main */
 
 p {
