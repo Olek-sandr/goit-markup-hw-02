@@ -1,23 +1,21 @@
-
 /* Color palette */
 
 /* Main color text #212121; */
 /* Second color text #757575; */
-/* accent #2196F3 */
-/* white #FFFFFF */
+/* accent #2196F3; */
+/* white #FFFFFF; */
 /* rgba white rgba(255, 255, 255, 0.6); */
-/* background color #FFFFFF; */
-/* second background color: #2F303A; */
+/* Header background color: #FFFFFF; */
+/* Footer background color: #2F303A; */
+/* Main background color: #F5F5F5; */
 /* black #000000 */
 
 :root {
     --main-color: #212121;
     --second-color: #757575;
     --accent: #2196F3;
+    --footer: #2F303A;
 }
-
-
-
 
 ul {
     list-style: none;
@@ -40,28 +38,44 @@ background-color: #FFFFFF;
 .auth-nav a {
     color: var(--second-color);
 }
-
 .logo:hover,
 .logo:focus {
     color: var(--accent);
 }
-
 .site-nav a:hover,
 .site-nav a:focus {
     color: var(--accent);
 }
-
 .auth-nav a:hover, 
 .auth-nav a:focus {
     color: var(--accent);
 }
-
 .site-nav .current {
 color: var(--accent);
 }
 
 /* Main */
+.main {
+    background-color: #F5F5F5;
+}
 
+/* Button*/
+.button:hover,
+.button:focus {
+color: #FFFFFF;
+background-color: var(--accent) ;
+}
 p {
     color: var(--second-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--footer) ;
+}
+.addres-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+.addres-link-1 {
+    color: #FFFFFF;
 }
