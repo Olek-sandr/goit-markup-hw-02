@@ -60,6 +60,9 @@ color: var(--accent);
 }
 
 /* Button*/
+button {
+    font-family: inherit;
+}
 .button:hover,
 .button:focus {
 color: #FFFFFF;
