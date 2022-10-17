@@ -20,7 +20,7 @@
 ul {
     list-style: none;
 }
-.page-body {
+.body {
 color: var(--main-color);
 background-color: #FFFFFF;
 }
@@ -59,7 +59,7 @@ color: var(--accent);
     background-color: #F5F5F5;
 }
 
-/* Button*/
+/* Navigations Buttons*/
 button {
     font-family: inherit;
 }
@@ -76,9 +76,14 @@ p {
 .footer {
     background-color: var(--footer) ;
 }
+
 .addres-link {
     color: rgba(255, 255, 255, 0.6);
 }
-.addres-link-1 {
+
+.addres-first-link {
     color: #FFFFFF;
 }
+/* .addres {
+    color: #FFFFFF;
+} */
