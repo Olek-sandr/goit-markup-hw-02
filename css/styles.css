@@ -35,7 +35,6 @@ a {
 .logo {
     color: #000000; 
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -47,7 +46,6 @@ a {
 
 .site-nav a {
     color: var(--main-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -56,7 +54,6 @@ a {
 
 .auth-nav a {
     color: var(--second-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -87,7 +84,6 @@ color: var(--accent);
 }
 
 h2 {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -95,11 +91,9 @@ h2 {
 }
 
 p {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     color: var(--second-color);
 }
 
@@ -113,7 +107,6 @@ button {
 .button:focus {
     color: #FFFFFF;
     background-color: var(--accent) ;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -131,18 +124,16 @@ button {
 
 .addres-first-link {
     color: #FFFFFF;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
 }
 
 .addres-link {
     color: rgba(255, 255, 255, 0.6);
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
 }
 
 .addres a:hover,
