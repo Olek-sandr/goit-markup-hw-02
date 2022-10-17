@@ -23,33 +23,60 @@ ul {
 .body {
 color: var(--main-color);
 background-color: #FFFFFF;
+font-family: 'Roboto', sans-serif;
+letter-spacing: 0.03em;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Header */
 .logo {
     color: #000000; 
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
     }
 .logo-style {
     color: var(--accent);
 }
+
 .site-nav a {
     color: var(--main-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
+
 .auth-nav a {
     color: var(--second-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .logo:hover,
 .logo:focus {
     color: var(--accent);
 }
+
 .site-nav a:hover,
 .site-nav a:focus {
     color: var(--accent);
 }
+
 .auth-nav a:hover, 
 .auth-nav a:focus {
     color: var(--accent);
 }
+
 .site-nav .current {
 color: var(--accent);
 }
@@ -59,17 +86,38 @@ color: var(--accent);
     background-color: #F5F5F5;
 }
 
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--second-color);
+}
+
 /* Navigations Buttons*/
 button {
     font-family: inherit;
+    cursor: pointer;
 }
+
 .button:hover,
 .button:focus {
-color: #FFFFFF;
-background-color: var(--accent) ;
-}
-p {
-    color: var(--second-color);
+    color: #FFFFFF;
+    background-color: var(--accent) ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
 }
 
 /* Footer */
@@ -77,13 +125,27 @@ p {
     background-color: var(--footer) ;
 }
 
-.addres-link {
-    color: rgba(255, 255, 255, 0.6);
+.footer > .logo {
+    color: #FFFFFF;
 }
 
 .addres-first-link {
     color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
-/* .addres {
-    color: #FFFFFF;
-} */
+
+.addres-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.addres a:hover,
+.addres a:focus {
+    color:var(--accent)
+}
