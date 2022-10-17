@@ -9,20 +9,20 @@
   <body>
     <!--Header-->
     <header>
-      <a href="">WebStudio</a>
+      <a class="logo" href=""><span class="logo-style">Web</span>Studio</a>
 
       <nav>
-        <ul>
-          <li><a href="">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
+        <ul class="site-nav">
+          <li><a href="./index.html">Студія</a></li>
+          <li><a class="current" href="./portfolio.html">Портфоліо</a></li>
           <li><a href="">Контакти</a></li>
         </ul>
-
-        <ul>
-          <li><a href="">info@devstudio.com</a></li>
-          <li><a href="">+38 096 111 11 11</a></li>
-        </ul>
       </nav>
+
+      <ul class="auth-nav">
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
     </header>
 
     <!--Main-->
@@ -34,22 +34,22 @@
       </section>
 
       <section>
-        <h2></h2>
+        <h2>Наші переваги</h2>
         <ul>
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <h3>Увага до деталей</h3>
             <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <h3>Пунктуальність</h3>
             <p>Завдання організації, особливо рамки i місце навчання кадрів тягне у себe.</p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
+            <h3>Планування</h3>
             <p>Так само консультація з широким активом значною мірою зумовлює.</p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <h3>Сучасні технології</h3>
             <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
           </li>
         </ul>
@@ -57,9 +57,25 @@
       <section>
         <h2>Чим ми займаємося</h2>
         <ul>
-          <li><img src="./images/img1.jpg" alt="Приклад діяльності" width="370" height="294" /></li>
-          <li><img src="./images/img2.jpg" alt="Приклад діяльності" width="370" height="294" /></li>
-          <li><img src="./images/img3.jpg" alt="Приклад діяльності" width="370" height="294" /></li>
+          <li>
+            <img
+              src="./images/img1.jpg"
+              alt="Написання коду на планшеті"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img src="./images/img2.jpg" alt="Праця за комп'ютером" width="370" height="294" />
+          </li>
+          <li>
+            <img
+              src="./images/img3.jpg"
+              alt="Розробка коненту на планшеті"
+              width="370"
+              height="294"
+            />
+          </li>
         </ul>
       </section>
 
@@ -67,22 +83,42 @@
         <h2>Наша команда</h2>
         <ul>
           <li>
-            <img src="./images/igor.jpg" alt="Людина" width="270" height="260" />
+            <img
+              src="./images/igor.jpg"
+              alt="Усміхнений хлопець у коричневій сорочці"
+              width="270"
+              height="260"
+            />
             <h3>Ігор Дем'яненко</h3>
             <p lang="en">Product Designer</p>
           </li>
           <li>
-            <img src="./images/olga.jpg" alt="Людина" width="270" height="260" />
+            <img
+              src="./images/olga.jpg"
+              alt="Усміхнена дівчина у піджаку"
+              width="270"
+              height="260"
+            />
             <h3>Ольга Рєпіна</h3>
             <p lang="en">Frontend Developer</p>
           </li>
           <li>
-            <img src="./images/mikola.jpg" alt="Людина" width="270" height="260" />
+            <img
+              src="./images/mikola.jpg"
+              alt="Усміхнений хлопець у білій сорочці"
+              width="270"
+              height="260"
+            />
             <h3>Микола Тарасов</h3>
             <p lang="en">laMarketing</p>
           </li>
           <li>
-            <img src="./images/mykhailo.jpg" alt="Людина" width="270" height="260" />
+            <img
+              src="./images/mykhailo.jpg"
+              alt="Усміхнений хлопець у чорній футболці"
+              width="270"
+              height="260"
+            />
             <h3>Михайло Єрмаков</h3>
             <p lang="en">UI Designer</p>
           </li>
@@ -92,11 +128,13 @@
 
     <!--Footer-->
     <footer>
-      <a class="logo" href=""><span class="logo-style">Web</span>Studio</a>
+      <a href="">WebStudio</a>
 
       <address>
         <ul>
-          <li><a href="">м. Київ, пр-т Лесі Українки, 26</a></li>
+          <li>
+            <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9">м. Київ, пр-т Лесі Українки, 26</a>
+          </li>
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
