@@ -6,7 +6,7 @@
 /* white #FFFFFF; */
 /* rgba white rgba(255, 255, 255, 0.6); */
 /* Header background color: #FFFFFF; */
-/* Footer background color: #2F303A; */
+/* Footer and hero background color: #2F303A; */
 /* Main background color: #F5F5F5; */
 /* black #000000 */
 
@@ -14,7 +14,7 @@
     --main-color: #212121;
     --second-color: #757575;
     --accent: #2196F3;
-    --footer: #2F303A;
+    --footer-hero: #2F303A;
 }
 
 ul {
@@ -59,6 +59,7 @@ a {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
 .logo:hover,
 .logo:focus {
     color: var(--accent);
@@ -83,7 +84,21 @@ color: var(--accent);
     background-color: #F5F5F5;
 }
 
-h2 {
+.hero {
+    background-color: var(--footer-hero);
+}
+
+.hero > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.second-section h2 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -103,10 +118,21 @@ button {
     cursor: pointer;
 }
 
+.button-hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
 .button:hover,
 .button:focus {
     color: #FFFFFF;
-    background-color: var(--accent) ;
+    background-color: var(--accent);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -115,7 +141,11 @@ button {
 
 /* Footer */
 .footer {
-    background-color: var(--footer) ;
+    background-color: var(--footer-hero) ;
+}
+
+.addres{
+    font-style: normal;
 }
 
 .footer > .logo {
