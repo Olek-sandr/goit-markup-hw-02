@@ -5,9 +5,9 @@
 /* accent #2196F3; */
 /* white #FFFFFF; */
 /* rgba white rgba(255, 255, 255, 0.6); */
-/* Header background color: #FFFFFF; */
+/* background color: #FFFFFF; */
 /* Footer and hero background color: #2F303A; */
-/* Main background color: #F5F5F5; */
+/* Second background color: #F5F4FA; */
 /* black #000000 */
 
 :root {
@@ -17,14 +17,17 @@
     --footer-hero: #2F303A;
 }
 
+/* Body */
 ul {
     list-style: none;
 }
+
 .body {
-color: var(--main-color);
-background-color: #FFFFFF;
-font-family: 'Roboto', sans-serif;
-letter-spacing: 0.03em;
+    color: var(--main-color);
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 a {
@@ -33,13 +36,14 @@ a {
 
 /* Header */
 .logo {
-    color: #000000; 
+    color: #000000;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    }
+}
+
 .logo-style {
     color: var(--accent);
 }
@@ -47,7 +51,6 @@ a {
 .site-nav a {
     color: var(--main-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -55,7 +58,6 @@ a {
 .auth-nav a {
     color: var(--second-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -70,22 +72,56 @@ a {
     color: var(--accent);
 }
 
-.auth-nav a:hover, 
+.auth-nav a:hover,
 .auth-nav a:focus {
     color: var(--accent);
 }
 
 .site-nav .current {
-color: var(--accent);
+    color: var(--accent);
 }
 
-/* Main */
+/* Footer */
+.footer {
+    background-color: var(--footer-hero);
+}
+
+.addres {
+    font-style: normal;
+}
+
+.footer>.logo {
+    color: #FFFFFF;
+}
+
+.addres-first-link {
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.addres-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.addres a:hover,
+.addres a:focus {
+    color: var(--accent)
+}
+
+/* General Main */
+
 .main {
     background-color: #F5F5F5;
 }
 
+/* STUDIO */
+/* Main */
+
 .hero {
-    background-color: var(--footer-hero);
+background-color: var(--footer-hero);
 }
 
 .hero > h1 {
@@ -97,25 +133,6 @@ color: var(--accent);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-}
-.second-section h2 {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
-
-p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.9;
-    color: var(--second-color);
-}
-
-/* Navigations Buttons*/
-button {
-    font-family: inherit;
-    cursor: pointer;
 }
 
 .button-hero {
@@ -129,6 +146,75 @@ button {
     color: #FFFFFF;
 }
 
+.benefits h3 {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+} 
+
+.benefits p {
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--second-color);
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.activity h2,
+.team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    text-align: center;
+    color: var(--main-color)
+}
+
+.team p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--second-color)
+}
+
+.team li {
+    background-color: #FFFFFF
+}
+
+/* PORTFOLIO */
+/* Main */
+
+.projects h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;  
+}
+
+.projects p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--second-color);
+}
+
+/* Navigations Buttons*/
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
 .button:hover,
 .button:focus {
     color: #FFFFFF;
@@ -139,34 +225,8 @@ button {
     text-align: center;
 }
 
-/* Footer */
-.footer {
-    background-color: var(--footer-hero) ;
-}
 
-.addres{
-    font-style: normal;
-}
 
-.footer > .logo {
-    color: #FFFFFF;
-}
 
-.addres-first-link {
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-}
 
-.addres-link {
-    color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-}
 
-.addres a:hover,
-.addres a:focus {
-    color:var(--accent)
-}
