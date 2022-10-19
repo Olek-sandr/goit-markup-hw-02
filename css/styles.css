@@ -62,11 +62,6 @@ a {
     letter-spacing: 0.02em;
 }
 
-.logo:hover,
-.logo:focus {
-    color: var(--accent);
-}
-
 .site-nav a:hover,
 .site-nav a:focus {
     color: var(--accent);
@@ -111,12 +106,6 @@ a {
     color: var(--accent)
 }
 
-/* General Main */
-
-.main {
-    background-color: #F5F5F5;
-}
-
 /* STUDIO */
 /* Main */
 
@@ -148,6 +137,7 @@ background-color: var(--footer-hero);
 
 .benefits h3 {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 } 
@@ -213,16 +203,16 @@ background-color: var(--footer-hero);
 button {
     font-family: inherit;
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
 }
 
 .button:hover,
 .button:focus {
     color: #FFFFFF;
     background-color: var(--accent);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
 }
 
 
